@@ -1,0 +1,58 @@
+.container {
+  width: 320px;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+}
+
+header {
+  padding: 20px 15px 15px 15px;
+  position: relative;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  position: relative;
+}
+
+.new-task input {
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  background: #d3d3d3;
+}
+
+.delete {
+  float: right;
+  font-weight: bold;
+  background: transparent;
+  font-size: 1rem;
+  border: none;
+}
+
+li {
+  position: relative;
+  list-style: none;
+  padding: 15px;
+  border-bottom: 1px solid;
+}
+
+li .text {
+  margin-left: 25px;
+}
+
+
+
